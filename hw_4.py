@@ -1,6 +1,6 @@
 def function_makes_good_name(function_name, *args):
     name = function_name.__name__.title().replace('_', ' ')
-    print(name, *args)
+    print(name, *args, sep=' - ')
 
 
 def open_browser(browser_name):
